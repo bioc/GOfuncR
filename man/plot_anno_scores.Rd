@@ -54,7 +54,7 @@ Steffi Grote
 \code{\link{go_enrich}}\cr
 \code{\link{get_anno_genes}}\cr
 \code{\link{get_names}}\cr
-\code{\link{vioplot}}\cr
+\code{\link[vioplot]{vioplot}}\cr
 }
 
 \examples{ 
