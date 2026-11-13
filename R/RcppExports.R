@@ -25,10 +25,6 @@ hyper_randset <- function(nodes_per_gene, number_of_randomsets, directory, term,
     invisible(.Call(`_GOfuncR_hyper_randset`, nodes_per_gene, number_of_randomsets, directory, term, termtoterm, graph_path, root, mod, silent))
 }
 
-unlock_environment <- function(env) {
-    .Call(`_GOfuncR_unlock_environment`, env)
-}
-
 wilcox_category_test <- function(directory, cut, root, silent) {
     invisible(.Call(`_GOfuncR_wilcox_category_test`, directory, cut, root, silent))
 }

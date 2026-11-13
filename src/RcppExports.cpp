@@ -101,17 +101,6 @@ BEGIN_RCPP
     return R_NilValue;
 END_RCPP
 }
-// unlock_environment
-bool unlock_environment(Environment env);
-RcppExport SEXP _GOfuncR_unlock_environment(SEXP envSEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< Environment >::type env(envSEXP);
-    rcpp_result_gen = Rcpp::wrap(unlock_environment(env));
-    return rcpp_result_gen;
-END_RCPP
-}
 // wilcox_category_test
 void wilcox_category_test(std::string directory, int cut, std::string root, bool silent);
 RcppExport SEXP _GOfuncR_wilcox_category_test(SEXP directorySEXP, SEXP cutSEXP, SEXP rootSEXP, SEXP silentSEXP) {
