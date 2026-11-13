@@ -1,8 +1,8 @@
 Package: GOfuncR
 Type: Package
 Title: Gene ontology enrichment using FUNC
-Version: 1.33.1
-Date: 2024-02-03
+Version: 1.33.2
+Date: 2026-11-13
 Author: Steffi Grote
 Maintainer: Steffi Grote <grote.steffi@gmail.com>
 Description: GOfuncR performs a gene ontology enrichment analysis based on
