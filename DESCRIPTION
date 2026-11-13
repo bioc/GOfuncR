@@ -48,4 +48,3 @@ VignetteBuilder: knitr
 biocViews: GeneSetEnrichment, GO
 NeedsCompilation: yes
 Packaged: 2016-08-08 15:40:43 UTC; steffi_grote
-PackageStatus: Deprecated
