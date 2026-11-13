@@ -1,10 +1,14 @@
 Package: GOfuncR
 Type: Package
 Title: Gene ontology enrichment using FUNC
-Version: 1.33.2
+Version: 1.33.3
 Date: 2026-11-13
-Author: Steffi Grote
-Maintainer: Steffi Grote <grote.steffi@gmail.com>
+Authors@R: c(
+    person("Steffi", "Grote", role = "aut",
+        email = "grote.steffi@gmail.com"),
+    person("Christopher", "Smolen", role = "cre",
+        email = "chrispbsmolen@gmail.com",
+        comment = c(ORCID = "0009-0002-9537-7961")))
 Description: GOfuncR performs a gene ontology enrichment analysis based on
     the ontology enrichment software FUNC. GO-annotations are obtained 
     from OrganismDb or OrgDb packages ('Homo.sapiens' by default);
