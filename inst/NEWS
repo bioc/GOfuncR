@@ -1,3 +1,11 @@
+CHANGES IN VERSION 1.33.4
+--------------------------
+
+OTHER
+
+    o Restore the deprecation notice (PackageStatus and R/zzz.R) until the
+      Bioconductor core team un-deprecates the package
+
 CHANGES IN VERSION 1.33.2
 --------------------------
 

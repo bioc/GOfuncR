@@ -1,7 +1,7 @@
 Package: GOfuncR
 Type: Package
 Title: Gene ontology enrichment using FUNC
-Version: 1.33.3
+Version: 1.33.4
 Date: 2026-11-13
 Authors@R: c(
     person("Steffi", "Grote", role = "aut",
@@ -52,3 +52,4 @@ VignetteBuilder: knitr
 biocViews: GeneSetEnrichment, GO
 NeedsCompilation: yes
 Packaged: 2016-08-08 15:40:43 UTC; steffi_grote
+PackageStatus: Deprecated
