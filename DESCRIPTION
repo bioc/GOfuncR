@@ -1,7 +1,7 @@
 Package: GOfuncR
 Type: Package
 Title: Gene ontology enrichment using FUNC
-Version: 1.33.5
+Version: 1.33.6
 Date: 2026-11-13
 Authors@R: c(
     person("Steffi", "Grote", role = "aut",

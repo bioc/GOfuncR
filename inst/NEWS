@@ -1,10 +1,16 @@
-CHANGES IN VERSION 1.33.4
+CHANGES IN VERSION 1.33.5
 --------------------------
 
 OTHER
 
-    o Restore the deprecation notice (PackageStatus and R/zzz.R) until the
-      Bioconductor core team un-deprecates the package
+    o GOfuncR is no longer deprecated
+
+CHANGES IN VERSION 1.33.3
+--------------------------
+
+OTHER
+
+    o New maintainer: Christopher Smolen
 
 CHANGES IN VERSION 1.33.2
 --------------------------
